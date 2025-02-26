@@ -1,0 +1,107 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#game-selection {
+  align-content: center;
+}
+
+.statistics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.statistics > div {
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 4px 10px 0;
+  border: solid white 5px;
+  padding: 10px;
+}
+
+.buttons {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  height: 30px;
+  width: 200px;
+  margin: 5px;
+}
+
+.keyboard-letter {
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  margin: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+  background-color: lightgray;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.game-row {
+  display: flex;
+  justify-content: center;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+}
+
+.letter {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  margin: 2px;
+  font-family: Arial;
+}
+
+.wrong {
+  color: white;
+  background-color: #86888a;
+  border: 1px solid #86888a;
+}
+
+.place {
+  color: white;
+  background-color: #c9b458;
+  border: 1px solid #c9b458;
+}
+
+.correct {
+  color: white;
+  background-color: #6aaa64;
+  border: 1px solid #6aaa64;
+}

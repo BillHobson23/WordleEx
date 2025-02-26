@@ -1,0 +1,27 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP2019753/Wordle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UP2019753/Wordle/issues"
+  },
+  "homepage": "https://github.com/UP2019753/Wordle#readme",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.6"
+  }
+}
